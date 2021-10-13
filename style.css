@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    display: inline;
+}
+#header
+{
+width: 100%;
+height: 200px;
+background-color: rgb(161, 128, 128);
+text-align: center;
+animation-name: header;
+animation-duration: 5s;
+
+}
+#txt
+{
+    transform: translateY(75px);
+}
+#button
+{
+width: 300px;
+height: 80px;
+transform: translate(500px);
+background-color: gray;
+}
+#main
+{
+width: 100%;
+height: 800px;
+background-color: rgb(131, 65, 179);
+
+}
+#button2
+{
+    width: 300px;
+    height: 300px;
+    transform: translate(150px);
+    background-color: rgb(79, 39, 107);
+    animation-name: button3;
+    animation-duration: 1s;
+}#button3
+{
+    width: 300px;
+    height: 300px;
+    transform: translate(250px);
+    background-color: rgb(192, 175, 18);
+    animation-name: button3;
+    animation-duration: 1s;
+
+}#button4
+{
+    width: 300px;
+    height: 300px;
+    transform: translate(400px);
+    background-color: lawngreen;
+    animation-name: button4;
+    animation-duration: 1s;
+
+}
+#button5
+{
+    width: 300px;
+    height: 300px;
+    transform: translate(500px);
+    background-color: lightcoral;
+    animation-name: button5;
+    animation-duration: 1s;
+
+}
+@keyframes header {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+@keyframes button3
+{
+    0% {width: 50px;height: 50px;}
+    100% {width: 300px;height: 300px;}
+
+}
+@keyframes button4
+{
+    0% {width: 50px;height: 50px;}
+    100% {width: 300px;height: 300px;}
+
+}
+@keyframes button5
+{
+    0% {width: 50px;height: 50px;}
+    100% {width: 300px;height: 300px;}
+
+}
+
